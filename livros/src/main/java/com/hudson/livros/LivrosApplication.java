@@ -1,11 +1,13 @@
-package com.example.books;
+package com.alison.livros;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudMvcApplication {
+public class LivrosApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(CrudMvcApplication.class, args);
+		SpringApplication.run(LivrosApplication.class, args);
 	}
+
 }

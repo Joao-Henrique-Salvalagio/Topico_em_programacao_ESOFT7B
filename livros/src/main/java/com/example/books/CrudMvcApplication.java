@@ -1,13 +1,11 @@
-package com.biblioteca.livros;
+package com.example.books;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BibliotecaApplication {
-
+public class CrudMvcApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BibliotecaApplication.class, args);
+		SpringApplication.run(CrudMvcApplication.class, args);
 	}
-
 }
